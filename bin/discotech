@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require "discotech"
+
+colors = [
+  :red, :green, :yellow,
+  :blue, :magenta, :cyan, :white
+]
+
+decorations = [
+  :bold
+]
+
+ARGF.chars.each do |char|
+  char = Discotech.send decorations.sample, char
+  char = Discotech.send colors.sample, char
+
+  print char
+end
