@@ -1,4 +1,5 @@
 require "discotech/version"
+require "discotech/extensions/array"
 
 module Discotech
   def self.blink string
