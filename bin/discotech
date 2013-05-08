@@ -11,7 +11,7 @@ decorations = [
   :bold
 ]
 
-ARGF.chars.each do |char|
+ARGF.each_char do |char|
   char = Discotech.send decorations.sample, char
   char = Discotech.send colors.sample, char
 
