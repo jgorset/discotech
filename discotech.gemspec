@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/jgorset/discotech"
   s.summary     = "Disco time!"
   s.description = "Disco time!"
+  s.license     = "WTFPL"
 
   s.rubyforge_project = "discotech"
 
